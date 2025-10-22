@@ -1,0 +1,95 @@
+{
+  "officers": {
+    "count": 20,
+    "names": [
+      "Renato",
+      "Tomislav",
+      "Ivana",
+      "Marina",
+      "Karlo",
+      "Ana",
+      "Luka",
+      "Igor",
+      "Petar",
+      "Zoran",
+      "Božo",
+      "Krunoslav",
+      "Zvonimir",
+      "Slavko",
+      "Maja",
+      "Mladen",
+      "Dario",
+      "Nikola",
+      "Marko",
+      "Dražen"
+    ]
+  },
+  "planning": {
+    "days": 28,
+    "weekday_names": [
+      "Pon",
+      "Uto",
+      "Sri",
+      "Čet",
+      "Pet",
+      "Sub",
+      "Ned"
+    ]
+  },
+  "shifts": {
+    "labels_csv": {
+      "J": "Jutro",
+      "D": "Dan",
+      "N": "Noć",
+      "O": "Slobodan",
+      "A": "GO"
+    },
+    "min_staff": {
+      "J": 5,
+      "D": 5,
+      "N": 4
+    }
+  },
+  "ga": {
+    "pop_size": 150,
+    "gens": 250,
+    "tourn_k": 3,
+    "mut_rate": 0.2,
+    "cross_rate": 0.85,
+    "elitism": 2
+  },
+  "penalties": {
+    "W_MIN_STAFF": 3000,
+    "W_N_TO_M": 3000,
+    "W_ONE_PER_DAY": 5000,
+    "W_ABSENCE": 9999,
+    "W_CYCLE": 10,
+    "W_BAL_NIGHTS": 8,
+    "W_BAL_WEEKENDS": 6,
+    "W_MAX_CONSEC": 7,
+    "MAX_CONSEC_WORK": 6
+  },
+  "absences": {
+    "Renato": [
+      2,
+      3,
+      4
+    ],
+    "Slavko": [
+      9,
+      10,
+      11
+    ],
+    "Zvonimir": [
+      19
+    ]
+  },
+  "run": {
+    "algo": "BOTH",  
+    "seed": 40,
+    "gens": null,    
+    "out": "rezultati"
+  }
+
+  
+}
